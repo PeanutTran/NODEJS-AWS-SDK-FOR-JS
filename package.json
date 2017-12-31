@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-aws-bridge",
+  "version": "1.0.0",
+  "description": "Sends data received over HTTP to AWS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siekmanj/nodejs-AWS-bridge.git"
+  },
+  "author": "Jonah Siekmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siekmanj/nodejs-AWS-bridge/issues"
+  },
+  "homepage": "https://github.com/siekmanj/nodejs-AWS-bridge#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
