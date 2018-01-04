@@ -66,6 +66,11 @@ app.get('/data/:SHTtemp/:SHThumid/:BMPtemp/:BMPpressure/:batteryVoltage/:DSveloc
     
 });
 
+app.get('*', function(req, res){
+    console.log(req);
+    res.send(200);
+});
+
 
 var contains = function(arr, ID){ //This was written to check the nodes array for whether or not a certain node exists already.
     for(var i in arr){
